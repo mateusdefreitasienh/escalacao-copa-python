@@ -53,3 +53,7 @@ Você deve implementar as seguintes funções para gerenciar o sistema:
   No final do arquivo, utilize o bloco:
   ```python
   if __name__ == "__main__":
+
+## Desafio adicional
+- Criar um menu, questionando o que o usuaário quer fazer
+- Limitar o cadastro em 26 jogadores
