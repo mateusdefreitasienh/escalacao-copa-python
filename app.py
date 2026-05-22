@@ -25,10 +25,12 @@ selecao = {"Seleção": "Brasileira",
 
 print("Bem vindo ao sistema de cadastramento de Seleções")
 
-msg = "Digite 1 para cadastrar jogadores\n"
-msg += "Digite 2 para listar todos os jogadores \n"
-msg += "Digite 3 para listar todos os jogadores por posição\n"
-msg += "Digite 0 para sair\n"
+msg = "==================================\n"
+msg += "Digite '1' para cadastrar jogadores\n"
+msg += "Digite '2' para listar todos os jogadores \n"
+msg += "Digite '3' para listar todos os jogadores por posição\n"
+msg += "Digite '0' para sair\n"
+msg += "==================================\n"
 
 cmd = ""
 

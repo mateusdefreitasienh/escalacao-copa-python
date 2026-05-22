@@ -2,12 +2,12 @@
 def cadastrar_jogador(selecao: dict, nome: str, posicao: str, clube: str):
     posicoes = ["GOLEIRO", "ZAGUEIRO", "LATERAL", "MEIA", "ATACANTE"]
 
-    if posicao in posicoes:
+    if posicao in posicoes and len(selecao["Jogadores"]) <= 26:
         jogador = {"nome": nome, "posicao": posicao, "clube": clube}
         selecao["Jogadores"].append(jogador)
         print("Jogador cadastrado com sucesso!")
     else:
-        print("Jogador não cadastrado! Corrija a posição informada!")
+        print("Jogador não cadastrado! Corrija a posição informada ou verifique a quantidade de jogadores cadastrados (max 26 por seleção)")
     return selecao
 
 def formatar_jogador(jogador):
